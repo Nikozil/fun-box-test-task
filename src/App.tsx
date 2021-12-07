@@ -8,7 +8,7 @@ import { reorder } from './lib/Functions';
 import './styles/App.scss';
 
 function App() {
-  const [center, setCenter] = useState<Coordinates>([55.75, 37.57]);
+  const [center, setCenter] = useState<Coordinates>([55.734108, 37.623915]);
   const [dotsList, setDotsList] = useState<Dot[]>([]);
 
   const handleSubmit = (name: DotName) => {

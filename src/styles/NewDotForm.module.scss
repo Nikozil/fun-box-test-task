@@ -1,6 +1,13 @@
-.new-dot-form__input {
+.new-dot-form {
   margin: 24px 0px;
+}
+.new-dot-form__label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1.2em;
+}
 
+.new-dot-form__input {
   width: calc(100% - 10px);
   height: 35px;
 
@@ -8,7 +15,6 @@
   line-height: 21px;
   color: #000000;
   ::placeholder {
-    // color: #969595;
     color: #f7f7f7;
   }
   &:focus {

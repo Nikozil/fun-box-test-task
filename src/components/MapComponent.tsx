@@ -15,6 +15,7 @@ const MapComponent: React.FC<Props> = ({
   const onDragHandler = (e: YMapsApi) => {
     const newCoords = e.get('target').geometry.getCoordinates() as Coordinates;
     const id = e.get('target').properties.get('id');
+
     const changeCoords = (prevList: Dot[]) => {
       return prevList.map((dot: Dot) => {
         if (dot.id === id) return { ...dot, coordinates: newCoords };
@@ -23,6 +24,7 @@ const MapComponent: React.FC<Props> = ({
     };
     setDotsList(changeCoords);
   };
+
   const balloonContent = (dot: Dot) => `
                     <div class=${styles['baloon-content']}>
                    <div class=${styles['baloon-content__body']}>${dot.name}</div>
@@ -34,7 +36,7 @@ const MapComponent: React.FC<Props> = ({
         className={styles.map}
         defaultState={{
           center: center,
-          zoom: 15,
+          zoom: 17,
         }}
         options={{
           suppressMapOpenBlock: true,

@@ -15,7 +15,10 @@ const NewDotForm: React.FC<Props> = ({ handleSubmit }) => {
         resetForm();
       }}>
       {({ setFieldValue }) => (
-        <Form>
+        <Form className={styles['new-dot-form']}>
+          <label htmlFor="newDot" className={styles['new-dot-form__label']}>
+            Введите метку:
+          </label>
           <Field
             id="newDot"
             name="newDot"
