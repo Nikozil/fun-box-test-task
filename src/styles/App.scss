@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&display=swap');
+
+.app {
+  display: grid;
+  grid-template-areas:
+    'head head'
+    'interface map';
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 300px 1fr;
+
+  min-height: 100vh;
+  min-width: 350px;
+
+  font-family: 'Nunito', sans-serif;
+
+  @media screen and (max-width: 767px) {
+    grid-template-columns: 200px 1fr;
+  }
+}
+.interface {
+  grid-area: interface;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.map {
+  grid-area: map;
+  background-color: #f7f7f7;
+}

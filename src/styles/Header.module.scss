@@ -1,0 +1,14 @@
+.header {
+  grid-area: head;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #20232a;
+}
+.header__title {
+  font-size: 1.5em;
+  color: #61dafb;
+}
+.header__author {
+  color: #fff;
+}

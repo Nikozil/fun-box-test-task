@@ -1,0 +1,19 @@
+.new-dot-form__input {
+  margin: 24px 0px;
+
+  width: calc(100% - 10px);
+  height: 35px;
+
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  ::placeholder {
+    // color: #969595;
+    color: #f7f7f7;
+  }
+  &:focus {
+    background-color: #fff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #61dafba4;
+  }
+}

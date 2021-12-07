@@ -1,0 +1,21 @@
+.map {
+  box-sizing: border-box;
+  margin: 10px;
+  padding: 5px;
+  max-height: calc(100vh - 80px);
+  height: 100%;
+  max-width: calc(100vw - 320px);
+  width: 100%;
+  background-color: #20232a;
+  border-radius: 5px;
+  @media screen and (max-width: 767px) {
+    max-width: calc(100vw - 220px);
+  }
+}
+.baloon-content {
+  text-align: center;
+}
+.baloon-content__body {
+  color: #282c34;
+  font-size: 2em;
+}
