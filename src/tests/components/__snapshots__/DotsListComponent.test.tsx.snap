@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DotsListComponent tests renders correct 1`] = `
+<DocumentFragment>
+  <ul
+    class="dots-list__ul"
+    data-rbd-droppable-context-id="0"
+    data-rbd-droppable-id="droppable"
+  >
+    <li
+      aria-describedby="rbd-hidden-text-0-hidden-text-0"
+      class="dots-list__li"
+      data-rbd-drag-handle-context-id="0"
+      data-rbd-draggable-context-id="0"
+      draggable="false"
+      role="button"
+      tabindex="0"
+    >
+      <div
+        class="dot"
+      >
+        Dot 1 
+        <button
+          class="dot__delete-button"
+          data-testid="delete-button"
+        >
+          <img
+            alt="Delete"
+            src="trash-alt-solid.svg"
+          />
+        </button>
+      </div>
+    </li>
+    <li
+      aria-describedby="rbd-hidden-text-0-hidden-text-0"
+      class="dots-list__li"
+      data-rbd-drag-handle-context-id="0"
+      data-rbd-draggable-context-id="0"
+      draggable="false"
+      role="button"
+      tabindex="0"
+    >
+      <div
+        class="dot"
+      >
+        Dot 2 
+        <button
+          class="dot__delete-button"
+          data-testid="delete-button"
+        >
+          <img
+            alt="Delete"
+            src="trash-alt-solid.svg"
+          />
+        </button>
+      </div>
+    </li>
+    <li
+      aria-describedby="rbd-hidden-text-0-hidden-text-0"
+      class="dots-list__li"
+      data-rbd-drag-handle-context-id="0"
+      data-rbd-draggable-context-id="0"
+      draggable="false"
+      role="button"
+      tabindex="0"
+    >
+      <div
+        class="dot"
+      >
+        Dot 3 
+        <button
+          class="dot__delete-button"
+          data-testid="delete-button"
+        >
+          <img
+            alt="Delete"
+            src="trash-alt-solid.svg"
+          />
+        </button>
+      </div>
+    </li>
+  </ul>
+</DocumentFragment>
+`;

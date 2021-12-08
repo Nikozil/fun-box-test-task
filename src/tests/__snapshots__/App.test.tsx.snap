@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App tests renders  react correct 1`] = `
+<DocumentFragment>
+  <div
+    class="app"
+  >
+    <header
+      class="header"
+    >
+      <div
+        class="header__title"
+      >
+        Тестовое задание для FunBox 
+      </div>
+      <div
+        class="header__author"
+      >
+        Выполнил Масляный Александр
+      </div>
+    </header>
+    <div
+      class="interface"
+    >
+      <form
+        action="#"
+        class="new-dot-form"
+      >
+        <label
+          class="new-dot-form__label"
+          for="newDot"
+        >
+          Введите метку:
+        </label>
+        <input
+          autocomplete="off"
+          class="new-dot-form__input"
+          id="newDot"
+          name="newDot"
+          placeholder="Новая метка"
+          type="text"
+          value=""
+        />
+      </form>
+      <ul
+        class="dots-list__ul"
+        data-rbd-droppable-context-id="0"
+        data-rbd-droppable-id="droppable"
+      />
+    </div>
+    <div
+      class="map"
+    />
+  </div>
+</DocumentFragment>
+`;

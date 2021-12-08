@@ -25,7 +25,7 @@ function App() {
     setDotsList((prevlist) => prevlist.filter((dot: Dot) => dot.id !== id));
   };
 
-  const permutationDot = (startIndex: number, endIndex: number) => {
+  const permutationDots = (startIndex: number, endIndex: number) => {
     const newList = reorder(dotsList, startIndex, endIndex);
     setDotsList(newList);
   };
@@ -38,7 +38,7 @@ function App() {
         <DotsListComponent
           dotsList={dotsList}
           deleteDot={deleteDot}
-          permutationDot={permutationDot}
+          permutationDots={permutationDots}
         />
       </div>
       <div className="map">

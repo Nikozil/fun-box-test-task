@@ -9,29 +9,3 @@
   border-radius: 5px;
   cursor: pointer;
 }
-.dot {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 5px 10px;
-  color: #fff;
-}
-.dot__delete-button {
-  visibility: hidden;
-  cursor: pointer;
-  padding: 0;
-  width: 35px;
-  height: 35px;
-}
-.dot__delete-button img {
-  width: 30x;
-  height: 30px;
-  visibility: visible;
-  filter: invert(86%) sepia(44%) saturate(3487%) hue-rotate(165deg)
-    brightness(103%) contrast(97%);
-
-  &:hover {
-    filter: invert(100%) sepia(86%) saturate(5997%) hue-rotate(172deg)
-      brightness(105%) contrast(98%);
-  }
-}
